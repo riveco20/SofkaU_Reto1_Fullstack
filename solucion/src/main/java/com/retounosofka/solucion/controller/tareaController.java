@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.*;
 import com.retounosofka.solucion.repository.InterfasRepositorioTarea;
 
 @RestController
+
+@cross
 @RequestMapping("api")
 public class tareaController  {
     @Autowired
