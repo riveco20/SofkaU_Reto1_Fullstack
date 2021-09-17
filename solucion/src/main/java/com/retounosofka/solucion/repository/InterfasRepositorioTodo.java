@@ -1,11 +1,11 @@
 package com.retounosofka.solucion.repository;
 
 
+import com.retounosofka.solucion.entity.Todo;
 import org.springframework.data.repository.CrudRepository;
-import com.retounosofka.solucion.entity.Tarea;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface InterfasRepositorioTarea extends CrudRepository<Tarea,Integer> {
+public interface InterfasRepositorioTodo extends CrudRepository<Todo,Integer> {
 
 }
