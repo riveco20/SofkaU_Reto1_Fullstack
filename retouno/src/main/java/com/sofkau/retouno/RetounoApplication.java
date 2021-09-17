@@ -1,13 +1,13 @@
-package com.retounosofka.solucion;
+package com.sofkau.retouno;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SolucionApplication {
+public class RetounoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SolucionApplication.class, args);
+		SpringApplication.run(RetounoApplication.class, args);
 	}
 
 }

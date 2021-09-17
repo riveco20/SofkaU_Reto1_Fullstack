@@ -1,7 +1,6 @@
-package com.retounosofka.solucion.repository;
+package com.sofkau.retouno.repository;
 
-
-import com.retounosofka.solucion.entity.Todo;
+import com.sofkau.retouno.entity.Todo;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

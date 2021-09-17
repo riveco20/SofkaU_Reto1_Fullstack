@@ -1,8 +1,6 @@
-package com.retounosofka.solucion.controller;
-
-
-import com.retounosofka.solucion.entity.Todo;
-import com.retounosofka.solucion.service.InterfasServiciosTodo;
+package com.sofkau.retouno.controller;
+import com.sofkau.retouno.entity.Todo;
+import com.sofkau.retouno.service.InterfasServiciosTodo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,7 +13,7 @@ public class TodoController {
 
     @GetMapping(value="api/Todo")
     public Iterable<Todo>listartareas(){
-         return service.listar();
+        return service.listar();
     }
 
     @PostMapping(value = "api/Todo")
@@ -31,16 +29,16 @@ public class TodoController {
         throw new RuntimeException(("No existe el id para actualizar"));
     };
 
-   @DeleteMapping(value = "api/todo")
+    @DeleteMapping(value = "api/todo")
     public void delete(@PathVariable("id") Integer id){
         service.delete(id);
-   };
+    };
 
-   @GetMapping(value = "api/{id}/todo")
+    @GetMapping(value = "api/{id}/todo")
     public Todo get(@PathVariable("id") Integer id)
-   {
-       return service.listarId(id);
-   }
+    {
+        return service.listarId(id);
+    }
 
 
 

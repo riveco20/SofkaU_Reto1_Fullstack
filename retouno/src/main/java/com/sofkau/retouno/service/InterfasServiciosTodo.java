@@ -1,6 +1,5 @@
-package com.retounosofka.solucion.service;
-
-import com.retounosofka.solucion.entity.Todo;
+package com.sofkau.retouno.service;
+import com.sofkau.retouno.entity.Todo;
 
 import java.util.List;
 

@@ -1,5 +1,4 @@
-package com.retounosofka.solucion.entity;
-
+package com.sofkau.retouno.entity;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -15,7 +14,7 @@ public class Todo {
     private String name;
     private boolean isComplete;
 
-    public Todo(){
+    public Todo() {
 
     };
 
@@ -40,6 +39,6 @@ public class Todo {
     }
 
     public void setComplete(boolean complete) {
-        this.isComplete =complete;
+        this.isComplete = complete;
     }
 }

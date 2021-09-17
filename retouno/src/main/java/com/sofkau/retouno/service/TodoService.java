@@ -1,8 +1,6 @@
-package com.retounosofka.solucion.service;
-
-
-import com.retounosofka.solucion.entity.Todo;
-import com.retounosofka.solucion.repository.InterfasRepositorioTodo;
+package com.sofkau.retouno.service;
+import com.sofkau.retouno.entity.Todo;
+import com.sofkau.retouno.repository.InterfasRepositorioTodo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

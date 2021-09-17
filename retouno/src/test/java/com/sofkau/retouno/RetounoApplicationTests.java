@@ -1,10 +1,10 @@
-package com.retounosofka.solucion;
+package com.sofkau.retouno;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SolucionApplicationTests {
+class RetounoApplicationTests {
 
 	@Test
 	void contextLoads() {
